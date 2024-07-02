@@ -6,12 +6,12 @@ The goal is to create a user-friendly and informative tool that contributes to a
 
 # Features
 
-#Waste Category Lookup: Easily search and find information on different waste categories.
-#Disposal Guidelines: Access detailed guidelines on how to properly dispose of various types of waste.
-#Recycling Tips: Discover practical tips and advice on recycling to help reduce environmental impact.
+1. Waste Category Lookup: Easily search and find information on different waste categories.
+2. Disposal Guidelines: Access detailed guidelines on how to properly dispose of various types of waste.
+3. Recycling Tips: Discover practical tips and advice on recycling to help reduce environmental impact.
 
 
-#Technology Used
+# Technology Used
 
 Spring Boot: For developing the backend services.
 H2 Database: An in-memory database for development and testing.
@@ -21,7 +21,7 @@ Maven: For project management and dependency management.
 Posman: For API documentation.
       : Testing using endpoints
 
-#Architecture
+# Architecture
 The Waste Sorting Mobile Application follows a client-server architecture, where the frontend mobile application interacts with the backend server through RESTful APIs.
 
 1. Backend Structure
@@ -61,13 +61,13 @@ Recycling Tips:
 7. Custom Error Response Class: The class defines the structure of the error response ,
 Response Entity is used to return detailed error responses to the client, ensuring that errors are communicated clearly and consistently.
 
-#To get started
+# To get started
 
 Installation and Setup
 To set up the backend server, follow these steps:
 
 Clone the Repository:
-git clone https://github.com/Enviro365/waste-sorting-app-backend.git
+git clone https://github.com/NonhlePrecious/EnviroWasteSorting.git
 Navigate to the Project Directory:
 
 cd waste-sorting-app-backend
@@ -76,8 +76,8 @@ mvn install
 Run the Application:
 mvn spring-boot:run
 
-API Documentation
+# API Documentation
 The API documentation is available at /swagger-ui.html once the application is running. This documentation provides detailed information about the available endpoints and how to use them.
 
-#License
+# License
       
