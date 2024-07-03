@@ -38,7 +38,15 @@ Package Structure: All backend code is organized under the package com.enviro.as
 
 [![Run in Postman](https://run.pstmn.io/button.svg)](https://rest-api-3929.postman.co/workspace/REST-API-Workspace~84973816-e478-4ce0-a5e3-507b76204aa1/request/36672697-ead326a3-78f1-4321-86e2-2238dadec19e?action=share&creator=36672697&ctx=documentation)
 
-[//]: # (https://app.getpostman.com/join-team?invite_code=beae26cf65ce2fffe48b1c4c16071284)
+### EXAMPLE: Create Waste Category
+
+- **URL:** `http://localhost:5555/waste-categories`
+- **Method:** POST
+- **Body (JSON):**
+  ```json
+  {
+    "name": "Plastic"
+  }
 
 REST Endpoints:
 Waste Categories:
