@@ -1,4 +1,4 @@
-# Waste Sorting Application
+# Waste Sorting Application [![Java Pipeline](https://github.com/NonhlePrecious/EnviroWasteSorting/actions/workflows/main.yml/badge.svg)](https://github.com/NonhlePrecious/EnviroWasteSorting/actions/workflows/main.yml)
 
  ![recycle](https://github.com/NonhlePrecious/EnviroWasteSorting/assets/138370947/e12800b5-c49d-42e5-892e-e911eef145c1)
 
