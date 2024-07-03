@@ -74,14 +74,46 @@ Recycling Tips:
       PUT /recycling-tips/{id}: Update an existing recycling tip.
       DELETE /recycling-tips/{id}: Delete a recycling tip.
 
-2. Data Management:
+## REST Endpoints
+
+# Waste Categories
+Use these endpoints to retrieve information about waste categories.
+
+GET /waste-categories: Retrieve a list of all waste categories.
+GET /waste-categories/{id}: Retrieve a waste category by ID.
+GET /waste-categories/waste-type/{wasteType}: Retrieve waste categories by waste type.
+POST /waste-categories: Add a new waste category.
+PUT /waste-categories/{id}: Update an existing waste category.
+DELETE /waste-categories/{id}: Delete a waste category.
+
+# Disposal Guidelines
+Use these endpoints to retrieve and manage disposal guidelines.
+
+GET /disposal-guidelines: Retrieve a list of all disposal guidelines.
+GET /disposal-guidelines/{id}: Retrieve disposal guidelines by ID.
+GET /disposal-guidelines/waste-type/{wasteType}: Retrieve disposal guidelines by waste type.
+POST /disposal-guidelines: Add new disposal guidelines.
+PUT /disposal-guidelines/{id}: Update disposal guidelines.
+DELETE /disposal-guidelines/{id}: Delete disposal guidelines.
+
+# Recycling Tips
+Use these endpoints to retrieve and manage recycling tips.
+
+GET /recycling-tips: Retrieve a list of recycling tips.
+GET /recycling-tips/{id}: Retrieve a recycling tip by ID.
+GET /recycling-tips/waste-type/{wasteType}: Retrieve recycling tips by waste type.
+POST /recycling-tips: Add a new recycling tip.
+PUT /recycling-tips/{id}: Update an existing recycling tip.
+DELETE /recycling-tips/{id}: Delete a recycling tip.
+
+# Data Management:
       Each record is identified by a primary key called id.
       Data is stored and managed in an in-memory H2 database for rapid development and testing.
    
-4. Validation:
+# Validation:
       Input validation is implemented using Spring Boot validation annotations to ensure data integrity and validity.
    
-5. Frontend-Backend Interaction
+# Frontend-Backend Interaction
     The frontend mobile application communicates with the backend server through the exposed RESTful APIs.
    uses JSON-formatted responses to ensure structured and consistent data exchange.
 
