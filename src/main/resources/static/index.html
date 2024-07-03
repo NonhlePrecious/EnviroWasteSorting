@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waste Management</title>
+    <style>
+        /* Add your custom CSS styles here */
+    </style>
+</head>
+<body>
+<h1>Waste Management</h1>
+
+<form action="/wasteCategoryLookUp" method="GET">
+    <label for="keyword">Search by Keyword:</label>
+    <input type="text" id="keyword" name="keyword">
+    <button type="submit">Search</button>
+</form>
+
+<hr>
+
+<!-- Display categories if available -->
+<div th:if="${categories}">
+    <h2>Search Results:</h2>
+    <table>
+        <thead>
+        <tr>
+            <th>Name</th>
+            <th>Disposal Guidelines</th>
+            <th>Recycling Tips</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:each="category : ${categories}">
+            <td><a th:href="@{/wasteCategory/{id}(id=${category.id})}" th:text="${category.name}"></a></td>
+            <td th:text="${category.disposalGuidelines}"></td>
+            <td th:text="${category.recyclingTips}"></td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<!-- Display category details if available -->
+<div th:if="${category}">
+    <h2>Category Details:</h2>
+    <p>Category Id: <span th:text="${category.categoryId}"></span></p>
+    <p>Name: <span th:text="${category.name}"></span></p>
+    <p>Disposal Guidelines: <span th:text="${category.disposalGuidelines}"></span></p>
+    <p>Recycling Tips: <span th:text="${category.recyclingTips}"></span></p>
+</div>
+</body>
+</html>

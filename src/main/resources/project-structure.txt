@@ -1,0 +1,18 @@
+src
+├── main
+│   ├── java
+│   │   └── com
+│   │       └── example
+│   │           ├── controller
+│   │           ├── model
+│   │           ├── repository
+│   │           ├── service
+│   │           └── WasteApp.java
+│   └── resources
+│       ├── static
+│       │   └── index.html
+│       └── application.properties
+└── test
+    └── java
+        └── com
+            └── wasteApp
