@@ -1,4 +1,4 @@
-package com.enviro365.enviro;
+package com.enviro.assessment.grad001.nonhlemavimbela;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

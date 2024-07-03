@@ -1,4 +1,4 @@
-package com.enviro365.enviro.model;
+package com.enviro.assessment.grad001.nonhlemavimbela.model;
 
 public class WasteParserException extends Exception {
 

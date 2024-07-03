@@ -1,6 +1,6 @@
-package com.enviro365.enviro.model;
+package com.enviro.assessment.grad001.nonhlemavimbela.model;
 
-import com.enviro365.enviro.controller.WasteCategoryController;
+import com.enviro.assessment.grad001.nonhlemavimbela.controller.WasteCategoryController;
 import com.fasterxml.jackson.core.JsonFactory;
 import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.core.JsonToken;
