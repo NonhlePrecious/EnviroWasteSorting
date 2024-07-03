@@ -169,4 +169,4 @@ To set up the backend server, follow these steps:
   
     mvn spring-boot:run
       
-# Reuse, Recycle and Proect the environment for sa greener future!!!!!!!
+# Reuse, Recycle and Protect the environment for greener future!!!!!!!
