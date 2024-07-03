@@ -23,7 +23,7 @@ The goal is to create a user-friendly and informative tool that contributes to a
 
 
 # Architecture
-The Waste Sorting Mobile Application follows a client-server architecture, where the frontend mobile application interacts with the backend server through RESTful APIs.
+      The Waste Sorting Mobile Application follows a client-server architecture, where the frontend mobile application interacts with the backend server through RESTful APIs.
 
 1. Backend Structure
 Package Structure: All backend code is organized under the package com.enviro.assessment.grad001.nonhlemavimbela;.
@@ -48,31 +48,6 @@ Package Structure: All backend code is organized under the package com.enviro.as
     "name": "Plastic"
   }
 
-REST Endpoints:
-Waste Categories:
-Use th the endpoints to retrieve information
-      GET /waste-categories: Retrieve a list of all waste categories.
-      GET /waste-categories/{id}: Retrieve a list of all waste categories.
-      GET /waste-categories/waste-type/{wasteType}: Retrieve a list of all waste categories.
-      POST /waste-categories: Add a new waste category.
-      PUT /waste-categories/{id}: Update an existing waste category.
-      DELETE /waste-categories/{id}: Delete a waste category.
-   
-Disposal Guidelines:
-      GET /disposal-guidelines: Retrieve disposal guidelines.
-      GET /disposal-guidelines/{id}: Retrieve disposal guidelines.
-      GET /disposal-guidelines/waste-type/{wasteType}: Retrieve disposal guidelines.
-      POST /disposal-guidelines: Add new disposal guidelines.
-      PUT /disposal-guidelines/{id}: Update disposal guidelines.
-      DELETE /disposal-guidelines/{id}: Delete disposal guidelines.
-   
-Recycling Tips:
-      GET /recycling-tips: Retrieve a list of recycling tips.
-      GET /recycling-tips/{id}: Retrieve a list of recycling tips.
-      GET /recycling-tips/waste-type/{wasteType}: Retrieve a list of recycling tips.
-      POST /recycling-tips: Add a new recycling tip.
-      PUT /recycling-tips/{id}: Update an existing recycling tip.
-      DELETE /recycling-tips/{id}: Delete a recycling tip.
 
 # REST Endpoints
 
@@ -95,20 +70,30 @@ DELETE /waste-categories/{id}: Delete a waste category.
 Use these endpoints to retrieve and manage disposal guidelines.
 
 GET /disposal-guidelines: Retrieve a list of all disposal guidelines.
+
 GET /disposal-guidelines/{id}: Retrieve disposal guidelines by ID.
+
 GET /disposal-guidelines/waste-type/{wasteType}: Retrieve disposal guidelines by waste type.
+
 POST /disposal-guidelines: Add new disposal guidelines.
+
 PUT /disposal-guidelines/{id}: Update disposal guidelines.
+
 DELETE /disposal-guidelines/{id}: Delete disposal guidelines.
 
 ## Recycling Tips
 Use these endpoints to retrieve and manage recycling tips.
 
 GET /recycling-tips: Retrieve a list of recycling tips.
+
 GET /recycling-tips/{id}: Retrieve a recycling tip by ID.
+
 GET /recycling-tips/waste-type/{wasteType}: Retrieve recycling tips by waste type.
+
 POST /recycling-tips: Add a new recycling tip.
+
 PUT /recycling-tips/{id}: Update an existing recycling tip.
+
 DELETE /recycling-tips/{id}: Delete a recycling tip.
 
 ## Data Management:
