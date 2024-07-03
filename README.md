@@ -33,9 +33,9 @@ The Waste Sorting Mobile Application follows a client-server architecture, where
 Package Structure: All backend code is organized under the package com.enviro.assessment.grad001.nonhlemavimbela;.
    The application follows a layered architecture:
 - **Model:** Defines the data structures ([WasteCategory.java](src/main/java/com/enviro/assessment/grad001/nonhlemavimbela/model/WasteCategory.java)).
-- **Repository:** Handles data access ([WasteCategoryRepository.java](src/main/java/com/enviro/assessment/grad001/yournameandsurname/repository/WasteCategoryRepository.java)).
-- **Service:** Contains business logic ([WasteCategoryService.java](src/main/java/com/enviro/assessment/grad001/yournameandsurname/service/WasteCategoryService.java)).
-- **Controller:** Exposes REST endpoints ([WasteCategoryController.java](src/main/java/com/enviro/assessment/grad001/yournameandsurname/controller/WasteCategoryController.java)).
+- **Repository:** Handles data access ([WasteCategoryRepository.java](src/main/java/com/enviro/assessment/grad001/nonhlemavimbela/repository/WasteCategoryRepository.java)).
+- **Service:** Contains business logic ([WasteCategoryService.java](src/main/java/com/enviro/assessment/grad001/nonhlemavimbela/service/WasteCategoryService.java)).
+- **Controller:** Exposes REST endpoints ([WasteCategoryController.java](src/main/java/com/enviro/assessment/grad001/nonhlemavimbela/controller/WasteCategoryController.java)).
 
 REST Endpoints:
 Waste Categories:
