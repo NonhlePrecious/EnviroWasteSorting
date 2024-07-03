@@ -1,6 +1,6 @@
 # Waste Sorting Application
 
-[Uploading giphy.webp…]()
+ ![recycle](https://github.com/NonhlePrecious/EnviroWasteSorting/assets/138370947/e12800b5-c49d-42e5-892e-e911eef145c1)
 
 This is an educational tool application that aims to empower users to make environmentally conscious decisions,
 by providing essential information on waste sorting, disposal guidelines, and recycling tips.
@@ -95,8 +95,6 @@ PUT /disposal-guidelines/{id}: Update disposal guidelines.
 DELETE /disposal-guidelines/{id}: Delete disposal guidelines.
 
 ## Recycling Tips
-
-![Uploading sort.jfif…]()
 
 Use these endpoints to retrieve and manage recycling tips.
 
