@@ -13,18 +13,14 @@ The goal is to create a user-friendly and informative tool that contributes to a
 
 # Technology Used
 
-Spring Boot: For developing the backend services.
-H2 Database: An in-memory database for development and testing.
-RESTful API: To facilitate communication between the frontend and backend.
-Java: The primary programming language used.
-Maven: For project management and dependency management.
-Posman: For API documentation.
-      : Testing using endpoints
-
-- [Spring Boot](https://spring.io/projects/spring-boot)
+- [Spring Boot](https://spring.io/projects/spring-boot) For developing the backend services.
 - [Spring Data JPA](https://spring.io/projects/spring-data-jpa)
-- [H2 Database](https://www.h2database.com/)
-- [Postman](https://www.postman.com/)
+- [H2 Database](https://www.h2database.com/) An in-memory database for development and testing.
+  RESTful API: To facilitate communication between the frontend and backend.
+  Java: The primary programming language used.
+  Maven: For project management and dependency management.
+- [Postman](https://www.postman.com/) For Testing API uendpoints
+
 
 # Architecture
 The Waste Sorting Mobile Application follows a client-server architecture, where the frontend mobile application interacts with the backend server through RESTful APIs.
@@ -36,6 +32,13 @@ Package Structure: All backend code is organized under the package com.enviro.as
 - **Repository:** Handles data access ([WasteCategoryRepository.java](src/main/java/com/enviro/assessment/grad001/nonhlemavimbela/repository/WasteCategoryRepository.java)).
 - **Service:** Contains business logic ([WasteCategoryService.java](src/main/java/com/enviro/assessment/grad001/nonhlemavimbela/service/WasteCategoryService.java)).
 - **Controller:** Exposes REST endpoints ([WasteCategoryController.java](src/main/java/com/enviro/assessment/grad001/nonhlemavimbela/controller/WasteCategoryController.java)).
+
+
+## Testing the API Endpoints with Postman
+
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://www.postman.com/collections/https://app.getpostman.com/join-team?invite_code=beae26cf65ce2fffe48b1c4c16071284)
+
+[//]: # (https://app.getpostman.com/join-team?invite_code=beae26cf65ce2fffe48b1c4c16071284)
 
 REST Endpoints:
 Waste Categories:
